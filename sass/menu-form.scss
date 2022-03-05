@@ -1,0 +1,117 @@
+/* colors */
+$primary-color: #8A3F05;
+$secondary-color: #C68044;
+$beige-color: #DDB8A6;
+$dark-beige-color: #D49B7E;
+
+/* form */
+label {
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: helvetica;
+    font-size: 0.95rem;
+    border: 0.15rem solid $primary-color;
+}
+
+form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+form > div {
+    margin-bottom: 1rem;
+}
+
+form input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: helvetica;
+    font-size: 0.95rem;
+    border: 0.15rem solid $primary-color;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: $secondary-color;
+    color: black;
+    font-family: helvetica;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 0.3rem 0.3rem;
+    border: 0.15rem solid $primary-color;
+}
+
+button:hover {
+    background-color: $primary-color;
+    color: white;
+}
+
+.delete-container button {
+    background: $secondary-color;
+}
+
+.delete-container:hover button {
+    background-color: $primary-color;
+    color: white;
+}
+
+/* menu */
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 1rem;
+}
+
+.menu a:hover {
+    color: lightgray;
+}
+
+.menu a.active {
+    color: $secondary-color;
+    border-bottom: 0.15rem solid white;
+}
+
+.menu a.active:hover {
+    color: $dark-beige-color;
+}
+
+.menu button {
+    font-family: helvetica;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+
+.menu button:hover {
+    color: lightgray;
+}
+
+.menu-container {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.menu-container a {
+    color: white;
+    font-weight: bold;
+}

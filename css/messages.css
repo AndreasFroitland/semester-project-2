@@ -1,0 +1,24 @@
+.message {
+  width: 100%;
+  padding: 1rem;
+  color: grey;
+}
+
+.message.error {
+  border-color: red;
+  color: white;
+  background: red;
+}
+
+.message.warning {
+  border-color: orange;
+  color: white;
+  background: orange;
+}
+
+.message.success {
+  border-color: green;
+  color: white;
+  background: green;
+}
+/*# sourceMappingURL=messages.css.map */
