@@ -50,4 +50,4 @@ Make sure to open a pull request so the code can be reviewed before publishing.
 
 ## Contact
 
-[My e-mail](andreastfroitland@gmail.com)
+E-mail: andreastfroitland@gmail.com
